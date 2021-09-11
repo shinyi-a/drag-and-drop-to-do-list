@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+        <script src="https://code.jquery.com/ui/1.13.0-rc.2/jquery-ui.min.js" integrity="sha256-RQLbEU539dpygNMsBGZlplus6CkitaLy0btTCHcULpI=" crossorigin="anonymous"></script>
+        <script src="todo.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+      <div class="topContainer">
+        <div class="aboutList">
+            <p>Please key in your task and click 'add' to add task into the list</p>
+            <p>The new task will be added to the to-do list</p>
+            <p>When you have completed the task, please drag it to completed list.</p>
+            <p>Double Click to remove</p>
+            <button type="button" name="button" id="closeButton">Close</button>
+        </div>
+
+        <button type="button" name="button" id="aboutButton">About</button>
+        <button type="button" name="button" id="resetButton">Reset</button>
+        <h1>Task List</h1>
+        <h2>New to-do Item</h2>
+
+        <form action="">
+        <label for="input-box"></label>
+        <input type="text" name="" value="" id="input-box">
+        <button type="button" name="button" id="add">add</button>
+        </form>
+
+      </div>
+      <div class="btmContainer">
+          <div class="leftContainer">
+            <h3>To-do List</h3>
+            <div class="todo"></div>
+            <div class="todo"></div>
+            <div class="todo"></div>
+            <div class="todo"></div>
+            <div class="todo"></div>
+          </div>
+          <div class="rightContainer">
+            <h3>Completed List</h3>
+            <div class="complete"></div>
+            <div class="complete"></div>
+            <div class="complete"></div>
+            <div class="complete"></div>
+            <div class="complete"></div>
+          </div>
+    </div>
+    </body>
+</html>
